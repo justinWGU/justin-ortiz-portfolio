@@ -55,7 +55,7 @@ function App() {
               <div className='flex gap-2 mt-4 text-gray-400'>
                 <p>Spring Boot •</p>                
                 <p>Angular •</p>           
-                <p>Docker •</p>
+                <p>Docker</p>
               </div>
           </div>      
         </div>
