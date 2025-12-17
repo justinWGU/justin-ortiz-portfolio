@@ -13,7 +13,7 @@ function App() {
         <div className='flex gap-8 mt-10 text-sm text-white/60 hover:cursor-pointer'>
           <a className='transition hover:text-white underline' target='_blank' href='https://www.linkedin.com/in/justinortiz21/'>LinkedIn</a>
           <a className='transition hover:text-white underline' target='_blank' href='https://github.com/justinWGU'>GitHub</a>
-          <a className='transition hover:text-white underline' target='_blank' href='/public/JustinOrtizResume2025.pdf'>Resume (PDF)</a>
+          <a className='transition hover:text-white underline' target='_blank' href='/JustinOrtizResume2025.pdf'>Resume (PDF)</a>
         </div>
       </section>
 
