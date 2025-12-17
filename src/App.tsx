@@ -35,6 +35,7 @@ function App() {
                 <li>Utilized an LLM API to extract the scores from the snapshot</li>
                 <li>Developed a RESTful API to expose the captured scores for consumption</li>
               </ul>
+              <a target='_blank' href='https://github.com/justinWGU/cod-score-tracker' className='underline text-white/50 hover:text-white hover:cursor-pointer'>GitHub</a>
           </div>
           
           {/* Proj 2 */}
@@ -52,6 +53,7 @@ function App() {
                 <li>Built an inteface to display an interactive POV of the robot and control its peripherals</li>
                 <li>Established UART-based communication between an STM32 microcontroller and a Raspberry Pi</li>
               </ul>
+              <a target='_blank' href='https://github.com/justinWGU/ai-rc-robot' className='underline text-white/50 hover:text-white hover:cursor-pointer'>GitHub</a>
           </div>
 
           {/* Proj 3 */}
@@ -67,14 +69,15 @@ function App() {
                 <li>Applied modern tools to design and develop a polished frontend</li>
                 <li>Utilized Netlify to publicy display the frontend from a custom URL</li>
               </ul>
-          </div>      
+              <a target='_blank' href='https://github.com/justinWGU/justin-ortiz-portfolio' className='underline text-white/50 hover:text-white hover:cursor-pointer'>GitHub</a>
+          </div>        
       </section>
 
       {/* About */}
       <section id='about' className='flex flex-col gap-4 max-w-5xl mx-auto px-12 py-24'>
         <h3 className='max-w-3xl text-sm text-white/60 uppercase tracking-widest'>About</h3>
         <p className='text-white/70'>
-          I am a CS graduate with a strong interest in web development and embedded systems. I have a keen interest in combining advanced technologies, like LLMs, and MCUs to invent physical solutions to real world problems.
+          I am a computer science graduate with a strong interest in web development and embedded systems. I focus on building web applications that integrate Artificial intelligence and interface with MCUs to create innovative solutions. I am currently seeking an entry-level software engineering role where I can apply my skills and continue developing production-ready systems.
         </p>
       </section>
 
