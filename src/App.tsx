@@ -1,19 +1,27 @@
 import './App.css'
+import pfp from './assets/JustinOrtizPFP.png'
 
 function App() {
 
   return (
     <div className='bg-black'>
 
-      {/* Hero Section */}
-      <section id='intro' className='py-24 px-6 flex flex-col max-w-5xl mx-auto text-white'>
+      {/* Hero Section */}  
+      {/* <section className="px-6 md:px-16 py-20 max-w-5xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-8"> */}
+      <section id='intro' className='py-24 px-6 flex flex-col md:flex-row max-w-5xl mx-auto text-white'>
+        <div>
         <h1 className='text-5xl md:text-7xl font-semibold tracking-tight'>Justin Ortiz</h1>
         <p className='leading-relaxed max-w-3xl mt-4 text-white/70'>
-          Entry-level Software Engineer focused on full-stack web development, AI integration, and embedded systems.        </p>
+          Entry-level Software Engineer focused on full-stack web development, AI integration, and embedded systems.        
+        </p>
         <div className='flex gap-8 mt-10 text-sm text-white/60 hover:cursor-pointer'>
           <a className='transition hover:text-white underline' target='_blank' href='https://www.linkedin.com/in/justinortiz21/'>LinkedIn</a>
           <a className='transition hover:text-white underline' target='_blank' href='https://github.com/justinWGU'>GitHub</a>
           <a className='transition hover:text-white underline' target='_blank' href='/JustinOrtizResume2025.pdf'>Resume (PDF)</a>
+        </div>
+        </div>
+        <div className="shrink-0 text-white">
+          <img src={pfp} alt="Profile" className="w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border border-black/25"/>
         </div>
       </section>
 
