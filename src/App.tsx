@@ -7,7 +7,6 @@ function App() {
     <div className='bg-black'>
 
       {/* Hero Section */}  
-      {/* <section className="px-6 md:px-16 py-20 max-w-5xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-8"> */}
       <section id='intro' className='py-24 px-6 flex flex-col md:flex-row max-w-5xl mx-auto text-white'>
         <div>
         <h1 className='text-5xl md:text-7xl font-semibold tracking-tight'>Justin Ortiz</h1>
