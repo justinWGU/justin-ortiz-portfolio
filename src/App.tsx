@@ -6,8 +6,8 @@ function App() {
   return (
     <div className='bg-black'>
 
-      {/* Hero Section */}  
-      <section id='intro' className='py-24 px-6 flex flex-col md:flex-row max-w-5xl mx-auto text-white'>
+      {/* Hero Section */} 
+      <section id='intro' className='px-6 py-20 max-w-5xl mx-auto flex flex-col md:flex-row md:items-start md:justify-between gap-8 text-white'>
         <div>
         <h1 className='text-5xl md:text-7xl font-semibold tracking-tight'>Justin Ortiz</h1>
         <p className='leading-relaxed max-w-3xl mt-4 text-white/70'>
@@ -24,8 +24,8 @@ function App() {
         </div>
       </section>
 
-      {/* Projects */}
-      <section id='projects' className='max-w-5xl mx-auto px-6 py-24 gap-4 flex flex-col'>
+      {/* Project Section */}
+      <section id='projects' className='max-w-5xl mx-auto px-6 pb-24 gap-4 flex flex-col'>
         <h2 className='text-sm mb-12 uppercase tracking-widest text-white/60'>Projects</h2>
         
           {/* Proj 1 */}
@@ -80,7 +80,7 @@ function App() {
           </div>        
       </section>
 
-      {/* About */}
+      {/* About Section */}
       <section id='about' className='flex flex-col gap-4 max-w-5xl mx-auto px-12 py-24'>
         <h3 className='max-w-3xl text-sm text-white/60 uppercase tracking-widest'>About</h3>
         <p className='text-white/70'>
